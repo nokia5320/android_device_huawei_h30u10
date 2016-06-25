@@ -6,8 +6,14 @@ This is a device tree for Huawei Honor 3C (H30-U10) which is based on MT6582 SoC
 * init
   Sync CyanogenMod source:
 
-        # repo init -u git://github.com/kernel-killer/android.git -b cm-13.0        
+        # repo init -u git://github.com/kernel-killer/android.git -b cm-13.0
+  or
+        # repo init -u git://github.com/kernel-killer/android.git -b cm-13.0-dev
+  or
+        # repo init -u git://github.com/kernel-killer/android.git -b cm-13.0-twrp
+  and
         # repo sync
+  *You can choose what you want to build (dev - development version, twrp - TWRP enabled by default or nothing - stock CM)
 
 * full build
         
