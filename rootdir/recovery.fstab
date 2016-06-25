@@ -5,7 +5,7 @@
 /data			ext4		/dev/block/mmcblk0p8							flags=storagename="data";backupname"data"
 /nvram			emmc		/dev/nvram										flags=display="nvram";backup=1
 /cust			ext4		/dev/block/mmcblk0p6							flags=display="cust";backup=1
-/cache			yaffs		/dev/block/mmcblk0p7							flags=display="cache"
+/cache			yaffs2		/dev/block/mmcblk0p7							flags=display="cache"
 /recovery		emmc		/dev/recovery									flags=display=recovery";backup=1
 /external_sd	vfat		/dev/block/mmcblk1p1	/dev/block/mmcblk1		flags=removable;storage;display="MicroSD"
 /misc			emmc		/dev/misc										
