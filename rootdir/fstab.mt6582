@@ -5,7 +5,7 @@
 /emmc@android       /system         ext4    ro,commit=1,noauto_da_alloc				wait
 /emmc@usrdata       /data           ext4    noatime,nosuid,nodev,noauto_da_alloc,discard	wait,check
 /emmc@cust          /cust           ext4    noatime,nosuid,nodev,noauto_da_alloc,discard	wait,check
-/emmc@cache         /cache          yaffs    noatime,nosuid,nodev,noauto_da_alloc,discard	wait,check
+/emmc@cache         /cache          yaffs2    noatime,nosuid,nodev,noauto_da_alloc,discard	wait,check
 /emmc@protect_f     /protect_f      ext4    noatime,nosuid,nodev,noauto_da_alloc,discard	wait,check
 /emmc@protect_s     /protect_s      ext4    noatime,nosuid,nodev,noauto_da_alloc,discard	wait,check
 /devices/platform/mtk-msdc.1/mmc_host/mmc1/mmc1	auto	auto	defaults        voldmanaged=sdcard1:auto
